@@ -1,50 +1,76 @@
-# Welcome to your Expo app 👋
+# RL Financial App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Um aplicativo de controle financeiro pessoal construído com React Native e Expo.
 
-## Get started
+## Visão Geral do Projeto
 
-1. Install dependencies
+Este projeto visa criar uma ferramenta intuitiva para que os usuários possam gerenciar suas finanças, registrar gastos e receitas, e ter uma visão clara de sua saúde financeira.
 
-   ```bash
-   npm install
-   ```
+## Status Atual (Semana 1)
 
-2. Start the app
+✅ Configuração do ambiente de desenvolvimento React Native/Expo.
+✅ Estrutura básica do projeto e navegação entre telas (`expo-router`).
+✅ Tela de login com autenticação básica (usuário: `test`, senha: `123`).
+✅ Navegação condicional baseada no estado de autenticação.
+✅ Barra de abas (footer) funcional com ícones e nomes corretos.
+⚠️ Cabeçalho nas telas principais (Home/Gastos) persiste, mas está vazio. (Problema será investigado futuramente).
+⏳ Funcionalidade de Cadastro (próximo passo: integração com Firebase).
 
-   ```bash
-   npx expo start
-   ```
+## Tecnologias Utilizadas
 
-In the output, you'll find options to open the app in a
+* **React Native**: Framework para construção de aplicativos móveis nativos.
+* **Expo**: Conjunto de ferramentas para desenvolver, construir e implantar apps React Native.
+* **Expo Router**: Roteamento baseado em arquivos para Expo.
+* **@expo/vector-icons**: Ícones personalizáveis.
+* **@react-navigation/bottom-tabs**: Componentes para navegação por abas.
+* **MaterialCommunityIcons**: Coleção de ícones.
+* **Firebase Authentication** (Futuramente): Para gerenciamento de usuários (cadastro, login).
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Como Configurar e Executar
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Siga estes passos para configurar e rodar o projeto localmente:
 
-## Get a fresh project
+### Pré-requisitos
 
-When you're ready, run:
+* Node.js (LTS recomendado)
+* npm (gerenciador de pacotes do Node.js)
+* Expo Go app no seu dispositivo móvel (Android ou iOS)
+* Conta no Firebase (para as próximas etapas de autenticação)
 
-```bash
-npm run reset-project
-```
+### Instalação
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+1.  **Clone o repositório:**
+    ```bash
+    # Se você já tem o projeto localmente, pule esta etapa.
+    # Caso contrário, substitua [SEU_REPOSITORIO] pelo link do seu Git.
+    # git clone [SEU_REPOSITORIO]
+    # cd RLFinancialV2
+    ```
+2.  **Instale as dependências:**
+    ```bash
+    npm install
+    ```
 
-## Learn more
+### Executando o Aplicativo
 
-To learn more about developing your project with Expo, look at the following resources:
+1.  **Inicie o servidor de desenvolvimento do Expo:**
+    ```bash
+    npm start
+    ```
+2.  **Abra o app:**
+    * Escaneie o QR code exibido no terminal ou na janela do navegador com o aplicativo Expo Go no seu celular.
+    * Ou use as opções fornecidas para abrir em um emulador Android/iOS.
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## Próximos Passos
 
-## Join the community
+* Implementação da funcionalidade completa de cadastro com Firebase Authentication.
+* Desenvolvimento das telas Home (`index.tsx`) e Gastos (`gastos.tsx`) com dados reais ou mockados.
+* Implementação de funcionalidades de adicionar/editar/excluir transações.
 
-Join our community of developers creating universal apps.
+## Contribuição
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Contribuições são bem-vindas! Por favor, siga as boas práticas de Git (fork, branch, commit, pull request).
+
+## Licença
+
+Este projeto está licenciado sob a [Licença MIT](LICENSE). Veja o arquivo `LICENSE` para mais detalhes.
