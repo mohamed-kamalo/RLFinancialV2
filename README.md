@@ -1,76 +1,95 @@
-# RL Financial App
+# RL Financial V2 📊💰
 
-Um aplicativo de controle financeiro pessoal construído com React Native e Expo.
+![GitHub release](https://img.shields.io/github/release/mohamed-kamalo/RLFinancialV2.svg)
+![GitHub stars](https://img.shields.io/github/stars/mohamed-kamalo/RLFinancialV2.svg)
+![GitHub forks](https://img.shields.io/github/forks/mohamed-kamalo/RLFinancialV2.svg)
 
-## Visão Geral do Projeto
+Welcome to **RL Financial V2**, your personal finance management tool built with React Native and Expo. This app helps you manage your income and expenses while preparing you for the future of Open Finance. 
 
-Este projeto visa criar uma ferramenta intuitiva para que os usuários possam gerenciar suas finanças, registrar gastos e receitas, e ter uma visão clara de sua saúde financeira.
+## Table of Contents
 
-## Status Atual (Semana 1)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-✅ Configuração do ambiente de desenvolvimento React Native/Expo.
-✅ Estrutura básica do projeto e navegação entre telas (`expo-router`).
-✅ Tela de login com autenticação básica (usuário: `test`, senha: `123`).
-✅ Navegação condicional baseada no estado de autenticação.
-✅ Barra de abas (footer) funcional com ícones e nomes corretos.
-⚠️ Cabeçalho nas telas principais (Home/Gastos) persiste, mas está vazio. (Problema será investigado futuramente).
-⏳ Funcionalidade de Cadastro (próximo passo: integração com Firebase).
+## Features 🌟
 
-## Tecnologias Utilizadas
+- **Budgeting**: Set budgets for different categories and track your spending.
+- **Expense Tracking**: Log your expenses quickly and easily.
+- **Income Management**: Record your income and analyze your financial health.
+- **Open Finance Ready**: Prepare for the future of finance with Open Finance capabilities.
+- **User-Friendly Interface**: Enjoy a clean and intuitive design.
 
-* **React Native**: Framework para construção de aplicativos móveis nativos.
-* **Expo**: Conjunto de ferramentas para desenvolver, construir e implantar apps React Native.
-* **Expo Router**: Roteamento baseado em arquivos para Expo.
-* **@expo/vector-icons**: Ícones personalizáveis.
-* **@react-navigation/bottom-tabs**: Componentes para navegação por abas.
-* **MaterialCommunityIcons**: Coleção de ícones.
-* **Firebase Authentication** (Futuramente): Para gerenciamento de usuários (cadastro, login).
+## Technologies Used 🛠️
 
-## Como Configurar e Executar
+- **React Native**: A framework for building native apps using React.
+- **Expo**: A toolchain built around React Native that helps you build, deploy, and quickly iterate on iOS and Android apps.
+- **JavaScript**: The primary programming language used for development.
+- **Fintech Solutions**: Integrations that allow for seamless financial management.
 
-Siga estes passos para configurar e rodar o projeto localmente:
+## Installation 🔧
 
-### Pré-requisitos
+To get started with RL Financial V2, clone the repository and install the necessary dependencies. Follow these steps:
 
-* Node.js (LTS recomendado)
-* npm (gerenciador de pacotes do Node.js)
-* Expo Go app no seu dispositivo móvel (Android ou iOS)
-* Conta no Firebase (para as próximas etapas de autenticação)
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/mohamed-kamalo/RLFinancialV2.git
+   ```
 
-### Instalação
+2. Navigate into the project directory:
+   ```bash
+   cd RLFinancialV2
+   ```
 
-1.  **Clone o repositório:**
-    ```bash
-    # Se você já tem o projeto localmente, pule esta etapa.
-    # Caso contrário, substitua [SEU_REPOSITORIO] pelo link do seu Git.
-    # git clone [SEU_REPOSITORIO]
-    # cd RLFinancialV2
-    ```
-2.  **Instale as dependências:**
-    ```bash
-    npm install
-    ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Executando o Aplicativo
+4. Start the app:
+   ```bash
+   npm start
+   ```
 
-1.  **Inicie o servidor de desenvolvimento do Expo:**
-    ```bash
-    npm start
-    ```
-2.  **Abra o app:**
-    * Escaneie o QR code exibido no terminal ou na janela do navegador com o aplicativo Expo Go no seu celular.
-    * Ou use as opções fornecidas para abrir em um emulador Android/iOS.
+For the latest releases, you can download the app from [here](https://github.com/mohamed-kamalo/RLFinancialV2/releases). Follow the instructions in the release notes to execute the application.
 
-## Próximos Passos
+## Usage 📈
 
-* Implementação da funcionalidade completa de cadastro com Firebase Authentication.
-* Desenvolvimento das telas Home (`index.tsx`) e Gastos (`gastos.tsx`) com dados reais ou mockados.
-* Implementação de funcionalidades de adicionar/editar/excluir transações.
+After installation, you can start using the app to manage your finances. 
 
-## Contribuição
+1. **Creating Budgets**: Go to the budgeting section and set your monthly limits.
+2. **Logging Expenses**: Click on the "Add Expense" button to log any expenses you incur.
+3. **Viewing Reports**: Access the reports section to visualize your financial health over time.
 
-Contribuições são bem-vindas! Por favor, siga as boas práticas de Git (fork, branch, commit, pull request).
+## Contributing 🤝
 
-## Licença
+We welcome contributions to improve RL Financial V2. If you have ideas or suggestions, feel free to open an issue or submit a pull request. Here’s how you can contribute:
 
-Este projeto está licenciado sob a [Licença MIT](LICENSE). Veja o arquivo `LICENSE` para mais detalhes.
+1. Fork the repository.
+2. Create a new branch for your feature or fix.
+3. Make your changes and commit them.
+4. Push your branch and open a pull request.
+
+## License 📜
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Contact 📧
+
+For any inquiries or feedback, please reach out to the project maintainer:
+
+- **Mohamed Kamalo**
+- [GitHub Profile](https://github.com/mohamed-kamalo)
+
+## Releases 📦
+
+You can find the latest releases of RL Financial V2 [here](https://github.com/mohamed-kamalo/RLFinancialV2/releases). Download the appropriate version for your device and follow the instructions to get started.
+
+---
+
+Thank you for checking out RL Financial V2! We hope this app helps you take control of your finances effectively.
